@@ -19,79 +19,96 @@ export const useImageGallery = () => {
         setLoading(true);
 
         const folders = [
+          // Pacote Especiais
           {
-            path: "ALApp/",
+            path: "ALApp/11022025-aleatoriedade",
             title: "",
             category: "Aleatóriedade",
           },
           {
-            path: "ALApp/",
+            path: "ALApp/9880-nossofunkao",
             title: "",
+            category: "Nosso Fusketão",
+          },
+          // Pacote comum
+          {
+            path: "ALApp/45-",
+            title: "21/02/2025",
+            category: "Dia de Tatoo",
+          },
+          {
+            path: "ALApp/44-passeiocomaaninha",
+            title: "14/02/2025",
+            category: "Passeio Com A Aninha",
+          },
+          {
+            path: "ALApp/43-aniversariodenamoro",
+            title: "08/02/2025",
             category: "Aniversario De Namoro 1#",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/42-feliz2026",
+            title: "01/01/2026",
             category: "Ano Novo!!!",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/41-entaoemetal",
+            title: "25/12/2025",
             category: "Então é METAL",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/40-tatoodele",
+            title: "13/12/2025",
             category: "dia de Tatoo dele",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/39-bailaootaku",
+            title: "08/12/2025",
             category: "Bailão Otaku",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/38-diadepiscininha",
+            title: "01/12/2025",
             category: "Dia de Piscinhinha",
           },
           {
-            path: "ALApp/",
-            title: "",
-            category: "Noite da Halloween",
-          },
-          {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/36-noiteradical",
+            title: "03/11/2025",
             category: "No Parque de Diversão",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/37-Halloween1terrornafacudade",
+            title: "31/10/2025",
+            category: "Noite da Halloween",
+          },
+          {
+            path: "ALApp/35-noitealuzdevelas",
+            title: "24/10/2025",
             category: "Noite no CandleLlight",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/34-diadepraia2oretorno",
+            title: "19/10/2025",
             category: "Dia de Praia 2",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/33-festivalderock",
+            title: "05/10/2025",
             category: "Festival de Rock",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/32-passeiodasveias",
+            title: "23/09/2025",
             category: "Passeio Das Véias",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/31-Feirinha",
+            title: "07/09/2025",
             category: "Feirinha",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/30-rocknocorreria",
+            title: "31/08/2025",
             category: "Rock no correria",
           },
           {
@@ -100,23 +117,23 @@ export const useImageGallery = () => {
             category: "Aniversario Da Mamãe Dela",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/28-lualcomosamigos",
+            title: "25/07/2025",
             category: "Lual com os Amigos",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/27-aniversariodajanja",
+            title: "21/07/2025",
             category: "Aniversario da Janja",
           },
           {
             path: "ALApp/26-DateNaMerceariaLiberdade",
-            title: "",
+            title: "18/07/2025",
             category: "Date No Mercado Liberdade",
           },
           {
-            path: "ALApp/",
-            title: "",
+            path: "ALApp/25-festgastronomia",
+            title: "15/07/2025",
             category: "Rolê no FestGastronomia",
           },
           {
